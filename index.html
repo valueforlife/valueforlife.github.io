@@ -19,6 +19,9 @@
        h5{
              color: #343a40;
        }
+       h6{
+         color:#63625e;
+       }
        .name{
            color: #343a40;
        }
@@ -26,10 +29,11 @@
            color: #343a40 !important;
        }
        /*----------------- Mail-------------------- */
-       #email{
+       #email,#linkedin{
            text-decoration: none;
            float: right;
            color:#343a40;
+           padding: 5px;
        }
        .footer{
            margin-top: 5% !important;
@@ -47,14 +51,17 @@
   <div class="media mt-5">
     <div class="media-body m-2">
       
-      <h5 class="align-items-center mt-2">Arkku.org</h5>
-      <p><The portfolio site of a student/p>
+      <h5 class="align-items-center mt-2">Arkku.org
+        <a id="email" href="mailto:juuso.kivinen@aalto.fi"> <i class="fa fa-envelope"> </i> </a>
+        <a id="linkedin" href="https://www.linkedin.com/in/juusokivinen/"> <i class="fab fa-linkedin"> </i> </a>
+      </h5>
+      <!--<p>The portfolio site of a student</p>-->
     </div>
   </div>
 <div class="mt-4">
-  <a href="/files/LC_optimization.html" class="btn btn-outline-dark btn-block" role="button" target="_self"><i class="fab fa-python">&nbsp;</i>Loan club portfolio optimization</a>
+  <a href="/files/LC_optimization.html" class="btn btn-outline-dark btn-block" role="button" target="_self"><i class="fab fa-python">&nbsp;</i>Loan Club P2P loan portfolio optimization</a>
   <br>
-  <a href="https://www.aaltoism.fi" class="btn btn-outline-dark btn-block" role="button" target="_self"><i class="fab fa-wordpress">&nbsp;</i>Aalto ISM Website renewal project</a>
+  <a href="https://www.aaltoism.fi" class="btn btn-outline-dark btn-block" role="button" target="_self"><i class="fab fa-wordpress">&nbsp;</i>Aalto ISM website renewal project</a>
   <br>
 </div>
         <!--------------------Footer---------------------------->
@@ -62,9 +69,8 @@
     <hr/>
     <h6>Helsinki, Finland</h6>
     <h6>
-      Proudly Hosted By
-      <a href="/" class="name" target="_blank"> GitHub Pages </a>
-      <a id="email" href="mailto:juuso.kivinen@aalto.fi"> <i class="fa fa-envelope"> </i> </a>
+      Hosted on GitHub Pages
+      
     </h6>
   </div>
 </div>
